@@ -1,0 +1,133 @@
+body {
+  background-color: #fcf9ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.brand-header {
+  border-bottom: 3px solid black;
+}
+
+.brand {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  font-size: 80px;
+  text-align: center;
+}
+
+.container-1 {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+}
+
+.story-HTML {
+  width: 25%;
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.article-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.second-story {
+  width: 50%;
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.Story-CSS {
+  width: 25%;
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.container-2 {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+}
+
+.story-Cat {
+  width: 25%;
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.subjects {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 75%;
+  border-right: 1px solid black;
+}
+
+.site-politic {
+  background-color: #ffeaa7;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.site-tech {
+  background-color: #e5b0ea;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.site-local {
+  background-color: #fda77f;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.site-opinion {
+  background-color: #c93838;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.site-sport {
+  background-color: #f75f00;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.site-link {
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+}
+
+.site-link:hover {
+  background-color: #ed7575;
+  color: #202040;
+}
+
+.Site:hover {
+  background-color: #fcf9ea;
+}
